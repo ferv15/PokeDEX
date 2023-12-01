@@ -19,11 +19,11 @@ const PokeCard = ({url}) => {
 
 
     return (
-        <article onClick={handleNavigate}>
+        <article className="poke_card_" onClick={handleNavigate}>
             <header>
                 <img src={infoPoke?.sprites.other["official-artwork"].front_default} alt="" />
             </header>
-            <section>
+            <section className="poke_info_card">
                 <h3>{infoPoke?.name}</h3>
                 <ul>
                     {

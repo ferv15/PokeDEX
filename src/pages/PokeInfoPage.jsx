@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom"
 import useFetch from "../hooks/useFetch"
 import { useEffect } from "react"
-
+import './style/PokeInfo.css'
 
 const PokeInfoPage = () => {
     
@@ -19,7 +19,7 @@ const PokeInfoPage = () => {
 
     return (
         <div>
-            <article>
+            <article className="poke_info">
                 <img src={pokemon?.sprites.other["official-artwork"].front_default} alt="" />
                 <h2>{pokemon?.name}</h2>
             </article>
