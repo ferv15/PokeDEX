@@ -1,0 +1,17 @@
+.poke_app {
+    background-color: #7ec9d4;
+    min-height: 100vh;
+    padding-top: 3em;
+}
+
+.poke_app_form {
+    display: flex;
+    justify-content: center;
+}
+.poke_app_title{
+    font-size:50px;
+    text-align: center;
+    margin: 0.5em;
+    font-weight: 1000;
+    color: red;
+}

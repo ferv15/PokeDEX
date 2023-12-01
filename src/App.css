@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+*{
+    box-sizing: border-box;
+}
+html {
+    font-family: 'VT323', monospace;
+}
+body{
+    margin: 0;
+}
+input{
+    font-family: inherit;
+    cursor: pointer;
+}
+h1,h2,h3, ul, hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+img{
+    height: 50%;
+}
